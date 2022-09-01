@@ -9,6 +9,60 @@ body {
     padding: 0;
 }
 
+a.nav-link {
+    padding: 20px;
+    margin: 0;
+    align-items: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'inter';
+    color: black;
+    float: right;
+}
+
+a.nav-link:hover {
+    color: #006341;
+}
+
+a.showcase button {
+    padding-left: 4px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: #1E3932;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 30px;
+    background-size: contain;
+    font-size: 16px;
+}
+
+
+div.topnav-right {
+    text-align: right;
+    padding: 16px,18px;
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: right;
+}
+
+.fixed-header {
+    width: 100%;
+    position: fixed;        
+    background:#1E3932;
+    padding-top: 10px 0;
+    padding-bottom: 30px;
+    color: #fff;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.5);
+    top: 0;
+    z-index: 1;
+}
+
 .showcase {
     position: absolute;
     right: 0;
@@ -35,10 +89,29 @@ body {
 
 }
 
-.text {
-    position: relative;
+.logo img{
 
 }
+
+.text {
+    position: absolute;
+    padding-top: 150px;
+}
+
+.text h1 {
+font-weight: 8em;
+font-weight: bold;
+line-height: 1em;
+color: ;
+
+}
+
+.text h3 {
+    font-weight: 4em;
+    font-weight: 700;
+    line-height: 1em;
+    
+    }
 
 .overlay {
     position: absolute;
@@ -46,9 +119,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5)
-    z-index: -10;
-
+    background: rgba(0, 0, 0, 0.1)
 }
 .menu {
     display: none;
